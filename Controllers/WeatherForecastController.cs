@@ -18,6 +18,8 @@ namespace testegit.Controllers
             _logger = logger;
         }
 
+        //codigo com erro!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
