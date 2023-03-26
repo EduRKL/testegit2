@@ -18,8 +18,8 @@ namespace testegit.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpPut(Name = "GetWeatherForecast")]
+        public IEnumerable<WeatherForecast> Put()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
